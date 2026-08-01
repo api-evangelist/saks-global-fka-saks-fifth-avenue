@@ -1,4 +1,16 @@
 aid: saks-global-fka-saks-fifth-avenue
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/saks-global-fka-saks-fifth-avenue.png
 name: Saks Global (fka Saks Fifth Avenue)
 description: Saks Global (fka Saks Fifth Avenue) is a company surfaced as a portfolio company of insight-partners
   and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
@@ -12,15 +24,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Retail
+- E-commerce
+- Luxury
+- Fashion
+- Department Store
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/saks-global-fka-saks-fifth-avenue-domain-security.yml
 - type: Website
   url: https://www.saksfifthavenue.com/
